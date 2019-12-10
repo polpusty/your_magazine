@@ -17,3 +17,4 @@ class Magazine(models.Model):
 
     name = models.CharField(max_length=128)
     created_date = models.DateTimeField(auto_now_add=True)
+    ebook = models.FileField(null=True)
